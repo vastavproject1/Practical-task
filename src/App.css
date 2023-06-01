@@ -1,0 +1,471 @@
+.header-root {
+  padding: 0 30px;
+}
+.menu-list ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.menu-list ul li a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0b20b6;
+  text-decoration: none;
+}
+.menu-list ul li {
+  padding: 20px;
+}
+.header-grid {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.sub-menu {
+  display: none;
+}
+.submenu-root {
+  position: absolute;
+  background: #0b20b6;
+  /* width: 100%; */
+  /* height: 500px; */
+  left: 0;
+  right: 0;
+  padding: 90px;
+  top: 58px;
+}
+
+.hover-effect:hover .sub-menu {
+  display: flex;
+}
+.hover-effect:hover .submenu-root h5 {
+  display: block;
+}
+.menu-list {
+  /* position: relative; */
+}
+.sub-menu p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0;
+}
+.sub-menu {
+  border: 1px solid white;
+  z-index: 999;
+}
+.inner-tab-root {
+  padding: 12px 15px;
+}
+.header-root {
+  position: relative;
+}
+.inner-tab-root {
+  z-index: 9999;
+}
+.inner-tab-root {
+  width: 18%;
+}
+.sub-menu {
+  /* display: flex; */
+  flex-flow: wrap;
+  border: 1px solid #fff;
+  padding-top: 30px;
+}
+.submenu-root {
+  padding: 0 90px;
+}
+.inner-tab-root {
+  border: 1px solid #fff;
+}
+.inner-tab-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.submenu-root {
+  margin: 0;
+}
+.submenu-root h5 {
+  display: none;
+  margin: 0;
+  /* position: absolute; */
+  top: 100px;
+  z-index: 9999;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  left: 87px;
+  padding-top: 60px;
+}
+.sub-menu {
+  border: unset;
+  padding-bottom: 60px;
+}
+.bg-header {
+  background-color: #0b20b6;
+}
+.bg-header ul li a {
+  color: #fff;
+}
+.book-now-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0b20b6;
+  border-radius: 100px;
+  width: 125px;
+  height: 40px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.bg-header .book-now-btn a {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.slider-content h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 110px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #ffffff;
+  margin: 0;
+}
+.slider-content p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px auto;
+  max-width: 558px;
+}
+.slider-slide img {
+  width: 100%;
+}
+
+.slider-slide {
+  /* display: flex; */
+  position: relative;
+}
+.slider-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.slider-content a {
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  width: 219px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0b20b6;
+}
+.submenu-root {
+  z-index: 9;
+}
+.slick-dots {
+  /* position: absolute; */
+  /* top: 0; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  bottom: unset !important;
+  top: 0;
+  right: 20px;
+  display: flex !important;
+  flex-direction: column;
+  width: unset !important;
+  height: 100% !important;
+  justify-content: center !important;
+}
+.slick-dots li button:before {
+  color: #fff !important;
+  opacity: 1 !important;
+  top: -1px !important;
+  left: 4px !important;
+  width: unset !important;
+  height: unset !important;
+}
+.slick-active button {
+  border: 1px solid #fff !important;
+  border-radius: 100px;
+}
+.slick-dots li button {
+  padding: unset !important;
+  width: 15px !important;
+  height: 15px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.section3 ul li {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 90px;
+  color: #0b20b6;
+  margin: 0 35px;
+}
+.section3 ul {
+  display: flex;
+  gap: 0 50px;
+}
+.section3 {
+  padding: 47px 0;
+}
+.clinic-location a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #0b20b6;
+  text-decoration: underline;
+}
+.faqroot-clinic {
+  background: #f3f4fb;
+  border-radius: 36px;
+  width: 342px;
+  height: 106px;
+  padding: 20px;
+}
+.change-clinic-btn {
+  width: 100%;
+  height: 40px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  background: #0b20b6;
+  border-radius: 107px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.clinic-location {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+.faqroot-clinic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+.faqroot-clinic {
+  margin: 0 auto;
+  /* border-left: 1px solid black; */
+}
+.section4 {
+  text-align: center;
+  display: flex;
+  padding: 0 120px;
+  align-items: center;
+  justify-content: center;
+}
+.border-left {
+  height: 1px;
+  background-color: #0b20b6;
+  width: 30%;
+}
+.border-right {
+  height: 1px;
+  background-color: #0b20b6;
+  width: 30%;
+}
+.faqroot-clinic {
+  margin: 0;
+}
+.border-left {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.section4 {
+  margin-top: 28px;
+}
+.faqlist {
+  padding: 0 120px;
+}
+.faqlist-left h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: #0b20b6;
+}
+.accordian-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0b20b6;
+  cursor: pointer;
+  padding: 25px 0;
+  border-top: 1px solid #0b20b626;
+  /* border-bottom: 1px solid #0b20b6; */
+  /* opacity: 0.1; */
+}
+.accordiant-content {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0b20b6;
+  margin: 0;
+  /* padding: 40px 0; */
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+.faqlist-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 73px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.faqlist-left {
+  width: 35%;
+}
+.faq-right {
+  width: 65%;
+}
+.faqlist-left p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0b20b6;
+}
+.faqlist-left div {
+  background: #f3f4fb;
+  border-radius: 4px;
+  padding: 20px;
+}
+.faqlist-left h5 {
+  margin: 0;
+}
+.faqlist-left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.accordian-title div {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #0b20b6;
+  border-radius: 100%;
+  color: #0b20b6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accordian-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.active-accordian div {
+  background-color: #0b20b6;
+  color: #fff;
+}
+.menu-list ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+.inner-tab-root a {
+  color: #fff;
+  cursor: pointer;
+}
+.inner-tab-root {
+  cursor: pointer;
+}
+.inner-tab-root p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.menu-list {
+  padding-left: 40px;
+}
+.menu-list {
+  width: 82%;
+}
+.subMenu2 {
+  display: none;
+  position: absolute;
+  background-color: #0b20b6;
+  z-index: 999;
+  padding: 15px;
+  top: 60px;
+}
+.hover-effect:hover .subMenu2 {
+  display: block;
+}
+.subMenu2 a {
+  color: #fff !important;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 15px;
+}
+.section3 ul {
+  margin: 0;
+}
+.mobile-header {
+  display: none;
+}
+.small-p {
+  font-weight: 400 !important;
+}

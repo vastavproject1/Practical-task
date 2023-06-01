@@ -1,0 +1,247 @@
+@media screen and (max-width: 1420px) {
+  .faqlist-left h5 {
+    font-size: 44px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .menu-list ul li {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .faqlist-left h5 {
+    font-size: 44px;
+  }
+  .slider-content h5 {
+    font-size: 71px;
+    line-height: 80px;
+  }
+  .slider-content p {
+    font-size: 18px;
+  }
+  .section3 ul li {
+    font-size: 80px;
+    line-height: 90px;
+  }
+  .section4 {
+    padding: 0 70px;
+  }
+  .faqlist {
+    padding: 0 70px;
+  }
+  .faqlist-left h5 {
+    font-size: 41px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header-root {
+    display: none;
+  }
+  .section3 ul li {
+    font-size: 56px;
+    line-height: 64px;
+    margin: 0 14px;
+  }
+  .faqlist-grid {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .faqlist-left {
+    width: 100%;
+  }
+  .faq-right {
+    width: 100%;
+  }
+  .faqlist-left {
+    gap: 30px 0;
+  }
+  .mobile-header {
+    display: block;
+  }
+  .mobile-header {
+    padding: 20px 40px;
+  }
+  .mobile-header-grid div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-submenu {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .cross-btn-root {
+    display: flex;
+    width: 93%;
+    padding: 20px 40px !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+  .mobile-submenu {
+    background-color: #0b20b6;
+  }
+  .mobile-submenu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .mobile-submenu ul li {
+    list-style: none;
+    padding: 24px 26px;
+    border-top: 1px solid #ffffff54;
+  }
+  .mobile-submenu ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .mobile-header-grid div {
+    flex-direction: column;
+  }
+  .book-now-root p {
+    margin: 0;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .booknow-btn {
+    background: #ffffff;
+    border-radius: 107px;
+    width: 132px;
+    height: 40px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0b20b6;
+  }
+  .book-now-root {
+    justify-content: flex-start !important;
+    align-items: unset !important;
+    width: 92%;
+    /* padding: 20px; */
+    gap: 10px 0;
+    /* margin: 0 20px; */
+  }
+  .mobile-submenu ul {
+    padding-top: 32px;
+  }
+  .bottom-ul li {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    border: unset !important;
+    padding: unset !important;
+    /* list-style: bullets !important; */
+  }
+  .bottom-ul {
+    /* padding-left: 40px;
+     */
+
+    width: 92% !important;
+  }
+  .book-now-root {
+    padding-top: 40px;
+  }
+  .bottom-ul li {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    position: relative;
+  }
+  .bottom-ul li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+  .mobile-header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider-content h5 {
+    font-size: 44px;
+    line-height: 51px;
+  }
+  .slider-content p {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 400px;
+    margin: 10px 0;
+  }
+  .section4 {
+    padding: 0 40px;
+  }
+  .faqlist {
+    padding: 0 40px;
+  }
+  .accordian-title {
+    padding: 15px 0;
+  }
+  .mobile-header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slider-slide img {
+    height: 450px;
+    object-fit: cover;
+  }
+  .section3 {
+    padding: 30px 0;
+  }
+  .section3 ul li {
+    font-size: 47px;
+    line-height: 53px;
+    margin: 0 14px;
+  }
+  .border-left {
+    display: none;
+  }
+  .border-right {
+    display: none;
+  }
+  .faqlist-grid {
+    margin: 40px 0;
+  }
+  .faqlist-left h5 {
+    font-size: 30px;
+  }
+  .accordian-title div {
+    width: 30px;
+    height: 30px;
+  }
+  .slick-dots {
+    top: unset !important;
+    right: unset !important;
+    bottom: 25px !important;
+    display: block !important;
+    height: unset !important;
+    width: 100% !important;
+  }
+}
